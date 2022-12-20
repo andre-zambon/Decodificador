@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/principal.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <img src="/assets/img/logo.svg" class="cabecalho__logo" alt="Logo da alura. A minúsculo na cor azul">
+        </div>
+    </header>
+
+    <main class="principal">
+        <div class="container">
+            <h1 class="principal__titulo">Codificador de mensagens!</h1>
+            <textarea name="" id="" class="mensagem-recebida" placeholder="Digite sua mensagem" required></textarea>
+            <p class="principal__instrucoes">Apenas letras minúsculas e sem acento.</p>
+            
+            <div class="caixa">
+                <button class="button">Criptografar</button>
+                <button class="button btn-nobkgnd">Descriptografar</button>
+            </div>
+
+            <div class="card-resultado">
+                <p class="erro__titulo">Nenhuma mensagem encontrada</p>
+                <p class="erro__instrucao">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div class="card-resultado">
+                <p class="resultado__mensagem"></p>
+                <button class="resultado__btn-copiar button btn-nobkgnd">Copiar</button>
+            </div>
+
+        </div>
+    </main>
+
+    
+</body>
+</html>

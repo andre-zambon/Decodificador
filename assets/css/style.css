@@ -1,0 +1,49 @@
+:root {
+
+    --cor-background-principal:#F3F5FC;
+    --cor-background-botao:#0A3871;
+    --cor-background-botao-branco: #FFFFFF;
+    --cor-texto-azul:#0A3871;
+    --cor-texto-branco: #FFFFFF;
+    --cor-texto-instrucao: #67808E;
+    --cor-titulo-erro: #343A40;
+    --cor-instrucao-erro: #495057;
+
+    --font: 'Inter';
+
+}
+
+body {
+    font-family: 'Inter';
+    background-color: var(--cor-background-principal);
+}
+
+
+.container {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: var(--cor-background-botao);
+    border: none;
+    border-radius: 24px;
+    color: var(--cor-texto-branco);
+    padding: 1rem 3rem;
+    margin: 0.75rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-nobkgnd {
+    background-color: transparent;
+    color: var(--cor-texto-azul);
+    border: var(--cor-background-botao) 1px solid;
+
+}
