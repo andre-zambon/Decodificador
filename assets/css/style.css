@@ -45,5 +45,21 @@ body {
     background-color: transparent;
     color: var(--cor-texto-azul);
     border: var(--cor-background-botao) 1px solid;
+}
 
+@media screen and (min-width: 768px) {
+
+    .container {
+        margin: 0 3rem;
+    }
+
+    .caixa {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .button {
+        width: 40%;
+    }
+    
 }

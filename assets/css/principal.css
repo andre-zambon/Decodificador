@@ -17,6 +17,7 @@
 
 .mensagem-recebida::placeholder {
     color: var(--cor-texto-azul);
+    font-family: 'Inter';
     font-size: 2rem;
 }
 
