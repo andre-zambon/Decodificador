@@ -1,0 +1,12 @@
+.rodape {
+    height: 10vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape__credito {
+    justify-self: center;
+    text-align: center;
+    line-height: 1.75rem;
+}
