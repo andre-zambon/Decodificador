@@ -2,6 +2,7 @@
 
     --cor-background-principal:#F3F5FC;
     --cor-background-botao:#0A3871;
+    --cor-background-botao-hover: #072850;
     --cor-background-botao-branco: #FFFFFF;
     --cor-texto-azul:#0A3871;
     --cor-texto-branco: #FFFFFF;
@@ -41,10 +42,19 @@ body {
     width: 100%;
 }
 
+.button:hover {
+    cursor: pointer;
+    background-color: var(--cor-background-botao-hover) ;
+}
+
 .btn-nobkgnd {
     background-color: transparent;
     color: var(--cor-texto-azul);
     border: var(--cor-background-botao) 1px solid;
+}
+
+.btn-nobkgnd:hover {
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -60,6 +70,10 @@ body {
 
     .button {
         width: 40%;
+    }
+
+    .resultado__btn-copiar {
+        width: 100%;
     }
     
 }
