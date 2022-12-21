@@ -24,11 +24,11 @@
     <main class="principal">
         <div class="container">
             <h1 class="principal__titulo">Codificador de mensagens!</h1>
-            <textarea name="" id="" class="mensagem-recebida" placeholder="Digite seu texto" required></textarea>
+            <textarea name="" id="mensagem" class="mensagem-recebida" placeholder="Digite seu texto" required></textarea>
             <p class="principal__instrucoes">Apenas letras minúsculas e sem acento.</p>
             
             <div class="caixa">
-                <button class="button">Criptografar</button>
+                <button class="button" onclick="criptografa()">Criptografar</button>
                 <button class="button btn-nobkgnd">Descriptografar</button>
             </div>
 
@@ -39,7 +39,7 @@
             </div>
 
             <div class="card-resultado caixa">
-                <textarea name="" id="" class="resultado__mensagem"></textarea>
+                <textarea name="" id="mensagemCripto" class="resultado__mensagem"></textarea>
                 <button class="resultado__btn-copiar button btn-nobkgnd">Copiar</button>
             </div>
 
@@ -51,7 +51,8 @@
             <p class="rodape__credito">Desenvolvido por André Zambon - 2022</p>
         </div>
     </footer>
-
-    
 </body>
+
+<script src="/assets/js/script.js"></script>
+
 </html>
