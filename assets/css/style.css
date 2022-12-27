@@ -21,9 +21,9 @@ body {
 
 
 .container {
-    margin: 0 1rem;
     display: flex;
     flex-direction: column;
+    margin: 0 1rem;
 }
 
 .caixa {
@@ -43,14 +43,14 @@ body {
 }
 
 .button:hover {
-    cursor: pointer;
     background-color: var(--cor-background-botao-hover) ;
+    cursor: pointer;
 }
 
 .btn-nobkgnd {
     background-color: transparent;
-    color: var(--cor-texto-azul);
     border: var(--cor-background-botao) 1px solid;
+    color: var(--cor-texto-azul);
 }
 
 .btn-nobkgnd:hover {
@@ -98,6 +98,5 @@ body {
     .button {
         margin: 0;
     }
-
    
 }
