@@ -6,13 +6,11 @@ var botaoDecodifica = document.getElementById('botaoDecodifica')
 botaoCodifica.addEventListener('click', () => {
     outputMensagem.innerHTML = aplicaCodigo();
     mostraCards();
-    autoResize()
 });
 
 botaoDecodifica.addEventListener('click', () => {
     outputMensagem.innerHTML = retiraCodigo();
     mostraCards();
-    autoResize
 });
 
 function aplicaCodigo () {
